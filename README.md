@@ -28,6 +28,7 @@ Run the script in Linux terminal:
 
 ```bash
 python3 log_monitor.py
+```
 
 
 ## Detection Logic
