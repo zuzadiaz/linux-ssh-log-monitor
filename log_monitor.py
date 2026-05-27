@@ -1,7 +1,7 @@
 import re
 from collections import Counter
 
-log_file = "auth.log"
+log_file = "sample_auth.log"
 failed_ips = []
 
 with open(log_file, "r") as file:
