@@ -28,3 +28,12 @@ Run the script in Linux terminal:
 
 ```bash
 python3 log_monitor.py
+
+
+## Detection Logic
+
+- LOW severity: 1–2 failed login attempts
+- MEDIUM severity: 3–4 failed login attempts
+- HIGH severity: 5+ failed login attempts
+
+The script flags repeated failed SSH login attempts as potentially suspicious activity.
