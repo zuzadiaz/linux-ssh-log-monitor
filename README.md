@@ -38,3 +38,20 @@ python3 log_monitor.py
 - HIGH severity: 5+ failed login attempts
 
 The script flags repeated failed SSH login attempts as potentially suspicious activity.
+
+
+## Sample Output
+
+```text
+=== SSH Failed Login Analysis ===
+
+IP Address: 192.168.1.45
+Failed Attempts: 1
+Severity Level: LOW
+
+IP Address: 203.0.113.10
+Failed Attempts: 3
+Severity Level: MEDIUM
+ALERT: 203.0.113.10 may be suspicious.
+```
+
